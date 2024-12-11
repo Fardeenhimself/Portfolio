@@ -194,12 +194,7 @@ const Sidebar = () => {
             <ul className="flex list-disc flex-col gap-3 font-poppins">
               <li>Reading Books</li>
               <li>Cricket</li>
-              <li>Workout</li>
-            </ul>
-            <ul className="flex list-disc flex-col gap-3 font-poppins">
               <li>Cycling</li>
-              <li>Travelling</li>
-              <li>Fifa</li>
             </ul>
           </div>
         </div>
