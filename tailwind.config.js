@@ -4,9 +4,14 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        parkinsans: "'Parkinsans', serif",
-        sfr: " 'SFR' ",
-        sfd: " ' SFD' ",
+        poppins: ['Poppins', 'sans-serif'],  
+        moonDance: ['Moon Dance', 'cursive'],  
+      },
+      fontWeight: {
+        light: 300,  
+        regular: 400, 
+        semi: 600,  
+        bold: 700,
       },
     },
   },

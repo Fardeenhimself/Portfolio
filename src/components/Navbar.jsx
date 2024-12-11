@@ -6,9 +6,9 @@ const Navbar = () => {
   };
 
   const handleDownloadCV = () => {
-    const link = document.createElement('a');
-    link.href = './src/certificates/Fardeen CV.pdf';
-    link.download = 'Fardeen CV.pdf';
+    const link = document.createElement("a");
+    link.href = "./src/certificates/Fardeen CV.pdf";
+    link.download = "Fardeen CV.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -22,21 +22,21 @@ const Navbar = () => {
           <div className="flex justify-end items-center gap-6">
             <a
               href="/"
-              className="text-gray-700 hover:text-black font-sfr flex items-center gap-2"
+              className="text-gray-700 hover:text-red-500 font-poppins flex items-center gap-2"
             >
               <HomeIcon size={20} />
               <span>Home</span>
             </a>
             <button
               onClick={handleEmailClick}
-              className="text-gray-700 hover:text-black font-sfr flex items-center gap-2"
+              className="text-gray-700 hover:text-blue-500 font-poppins flex items-center gap-2"
             >
               <Mail size={20} />
               <span>Contact Me</span>
             </button>
             <button
               onClick={handleDownloadCV}
-              className="text-gray-700 hover:text-black font-sfr flex items-center gap-2"
+              className="text-gray-700 hover:text-green-500 font-poppins flex items-center gap-2"
             >
               <Download size={20} />
               <span>Download CV</span>
@@ -50,24 +50,24 @@ const Navbar = () => {
         <div className="flex justify-around items-center py-3">
           <a
             href="/"
-            className="text-gray-700 hover:text-black flex flex-col items-center"
+            className="text-red-500 hover:text-black flex flex-col items-center"
           >
             <HomeIcon size={24} />
-            <span className="text-xs mt-1 font-sfr">Home</span>
+            <span className="text-xs mt-1 font-poppins">Home</span>
           </a>
           <button
             onClick={handleEmailClick}
-            className="text-gray-700 hover:text-black flex flex-col items-center"
+            className="text-blue-500 hover:text-black flex flex-col items-center"
           >
             <Mail size={24} />
-            <span className="text-xs mt-1 font-sfr">Contact</span>
+            <span className="text-xs mt-1 font-poppins">Contact</span>
           </button>
           <button
             onClick={handleDownloadCV}
-            className="text-gray-700 hover:text-black flex flex-col items-center"
+            className="text-green-500 hover:text-black flex flex-col items-center"
           >
             <Download size={24} />
-            <span className="text-xs mt-1 font-sfr">CV</span>
+            <span className="text-xs mt-1 font-poppins">CV</span>
           </button>
         </div>
       </nav>
