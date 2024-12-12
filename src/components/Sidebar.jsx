@@ -22,7 +22,9 @@ const Sidebar = () => {
             <h1 className="text-2xl font-bold font-poppins">
               Fardeen Been Zaman
             </h1>
-            <h3 className="text-xl font-poppins">Web Developer</h3>
+            <h3 className="text-xl font-poppins">
+              Web Developer | Computer Science Graduate | IT Expert
+            </h3>
           </div>
         </div>
         <div className="flex flex-col items-start justify-start gap-5 border-b p-5">
