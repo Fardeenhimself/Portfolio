@@ -1,4 +1,4 @@
-import { Home as HomeIcon, Mail, Download } from "lucide-react";
+import { Home as HomeIcon, Mail, Download, Settings as SettingsIcon } from "lucide-react";
 
 const Navbar = () => {
   const handleEmailClick = () => {
@@ -8,7 +8,7 @@ const Navbar = () => {
   const handleDownloadCV = () => {
     const link = document.createElement("a");
     link.href = "./src/certificates/Fardeen CV.pdf";
-    link.download = "Fardeen CV.pdf";
+    link.download = "cv1.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -17,26 +17,33 @@ const Navbar = () => {
   return (
     <>
       {/* Desktop Navbar */}
-      <nav className="hidden md:flex fixed top-0 left-0 right-0 bg-white shadow-sm z-50 mb-4">
+      <nav className="hidden md:flex fixed top-0 left-0 right-0 bg-base-100 shadow-sm z-50 mb-4">
         <div className="container mx-auto px-4 py-3">
           <div className="flex justify-end items-center gap-6">
             <a
+              href="/settings"
+              className="text-base-content hover:text-primary font-poppins flex items-center gap-2"
+            >
+              <SettingsIcon size={20} />
+              <span>Settings</span>
+            </a>
+            <a
               href="/"
-              className="text-gray-700 hover:text-red-500 font-poppins flex items-center gap-2"
+              className="text-base-content hover:text-primary font-poppins flex items-center gap-2"
             >
               <HomeIcon size={20} />
               <span>Home</span>
             </a>
             <button
               onClick={handleEmailClick}
-              className="text-gray-700 hover:text-blue-500 font-poppins flex items-center gap-2"
+              className="text-base-content hover:text-primary font-poppins flex items-center gap-2"
             >
               <Mail size={20} />
               <span>Contact Me</span>
             </button>
             <button
               onClick={handleDownloadCV}
-              className="text-gray-700 hover:text-green-500 font-poppins flex items-center gap-2"
+              className="text-base-content hover:text-primary font-poppins flex items-center gap-2"
             >
               <Download size={20} />
               <span>Download CV</span>
@@ -46,25 +53,32 @@ const Navbar = () => {
       </nav>
 
       {/* Mobile Bottom Navigation */}
-      <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-white shadow-lg z-50">
+      <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-base-100 shadow-lg z-50">
         <div className="flex justify-around items-center py-3">
           <a
+            href="/settings"
+            className="text-base-content hover:text-primary flex flex-col items-center"
+          >
+            <SettingsIcon size={24} />
+            <span className="text-xs mt-1 font-poppins">Settings</span>
+          </a>
+          <a
             href="/"
-            className="text-red-500 hover:text-black flex flex-col items-center"
+            className="text-base-content hover:text-primary flex flex-col items-center"
           >
             <HomeIcon size={24} />
             <span className="text-xs mt-1 font-poppins">Home</span>
           </a>
           <button
             onClick={handleEmailClick}
-            className="text-blue-500 hover:text-black flex flex-col items-center"
+            className="text-base-content hover:text-primary flex flex-col items-center"
           >
             <Mail size={24} />
             <span className="text-xs mt-1 font-poppins">Contact</span>
           </button>
           <button
             onClick={handleDownloadCV}
-            className="text-green-500 hover:text-black flex flex-col items-center"
+            className="text-base-content hover:text-primary flex flex-col items-center"
           >
             <Download size={24} />
             <span className="text-xs mt-1 font-poppins">CV</span>

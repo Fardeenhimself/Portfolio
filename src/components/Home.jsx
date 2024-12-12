@@ -22,11 +22,12 @@ const Home = () => {
               using Tailwind CSS. <br />
               My journey in tech started with a fascination for how things work
               behind the scenes, which led me to ensuring smooth workflows and
-              excellent customer service. I&apos;m always excited to learn new
-              technologies, optimize workflows, and contribute to meaningful
-              projects that push boundaries. <br />
+              excellent customer service.
+              <br /> I&apos;m always excited to learn new technologies, optimize
+              workflows, and contribute to meaningful projects that push
+              boundaries. <br />
               Feel free to connect with me. Let&apos;s build something great
-              together!
+              together 😊!
             </p>
           </div>
           <div className="space-y-10">
@@ -36,17 +37,15 @@ const Home = () => {
             <div className="flex flex-col lg:flex-row lg:gap-20">
               <ul>
                 <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
-                  <span className="text-xl font-bold font-poppins">
-                    Shoe Store
-                  </span>
+                  <span className="text-xl font-bold font-poppins">Quizzz</span>
                   <span className="font-semibold font-poppins">
-                    Type: E-commerce
+                    Type: Quiz App
                   </span>
                   <span className="font-semibold font-poppins">
                     Technology: MERN Stack
                   </span>
                   <a
-                    href="https://github.com/Fardeenhimself/Shoe_Store_MERN"
+                    href="https://github.com/Fardeenhimself/Quizzz_MERN"
                     className="font-semibold hover:text-red-500 font-poppins"
                   >
                     Git Repo: github/shoe_store
@@ -132,7 +131,8 @@ const Home = () => {
                   </span>
                   <span className="font-poppins">From: Simplilearn</span>
                   <a
-                    href="./src/certificates/sj.pdf"
+                    href="/js.png"
+                    target="_blank"
                     className="font-light font-poppins"
                   >
                     <button className="bg-slate-600 hover:bg-slate-400 text-white py-2 px-4 rounded-full">
@@ -154,7 +154,8 @@ const Home = () => {
                     From: Appstick
                   </span>
                   <a
-                    href="./src/certificates/ar.pdf"
+                    href="/app.png"
+                    target="_blank"
                     className="font-light font-poppins"
                   >
                     <button className="bg-slate-600 hover:bg-slate-400 text-white py-2 px-4 rounded-full">
@@ -166,59 +167,110 @@ const Home = () => {
             </div>
           </div>
           <div className="space-y-10">
-            <h1 className="text-2xl font-bold font-poppins md:text-4xl">
+            <h1 className="text-2xl font-bold font-poppins md:text-4xl text-base-content">
               Testimonials
             </h1>
 
             <div className="grid grid-cols-1  lg:grid-cols-1 gap-4 sm:gap-20 ">
-              <div className="bg-white rounded-xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-shadow">
+              <div className="bg-base-100 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-3 sm:gap-4">
-                  <div className="bg-gray-100 p-2 sm:p-3 rounded-full">
-                    <CircleUserRound className="w-10 h-10 sm:w-12 sm:h-12 text-gray-600" />
+                  <div className="bg-base-200 p-2 sm:p-3 rounded-full">
+                    <CircleUserRound className="w-10 h-10 sm:w-12 sm:h-12 text-base-content" />
                   </div>
                   <div className="flex flex-col">
-                    <h3 className="text-base sm:text-lg font-semibold font-serif">
-                      Mazharul Islam
+                    <h3 className="text-base sm:text-lg font-semibold font-serif text-base-content">
+                      Md. Apu Hosen
                     </h3>
-                    <span className="text-xs sm:text-sm text-gray-600 font-poppins">
-                      MERN Stack Developer
+                    <span className="text-xs sm:text-sm text-base-content/70 font-poppins">
+                      Senior Lecturer (Department of Computer Science and
+                      Engineering)
                     </span>
-                    <span className="text-xs sm:text-sm text-gray-600 font-poppins mb-2 sm:mb-4">
-                      Appstick Solutions
-                    </span>
-                    <p className="text-gray-700 font-moonDance font-regular text-base sm:text-xl">
-                      Fardeen is an exceptional developer with a keen eye for
-                      detail. His work on our projects demonstrated strong
-                      problem-solving skills and a deep understanding of modern
-                      web technologies. His ability to quickly grasp complex
-                      concepts and deliver high-quality solutions made him a
-                      valuable asset to our team.
+                    <a
+                      href="https://nubtkhulna.ac.bd/"
+                      className="text-xs sm:text-sm text-base-content/70 font-poppins hover:text-violet-700"
+                    >
+                      Northern University of Business and Technology, Khulna
+                    </a>
+                    <a
+                      href="mailto:apu.cse.just@gmail.com"
+                      className="text-xs sm:text-sm text-base-content/70 font-poppins mb-2 sm:mb-4 hover:text-red-700"
+                    >
+                      📧Email: apu.cse.just@gmail.com
+                    </a>
+                    <p className="text-sm sm:text-base text-base-content font-poppins">
+                      &quot;Fardeen has consistently demonstrated exceptional
+                      problem-solving abilities and a strong grasp of computer
+                      science fundamentals. His dedication to learning and
+                      ability to apply theoretical knowledge in practical
+                      scenarios is commendable.&quot;
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div className="bg-white rounded-xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-shadow">
+              <div className="bg-base-100 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-shadow">
                 <div className="flex items-start gap-3 sm:gap-4">
-                  <div className="bg-gray-100 p-2 sm:p-3 rounded-full">
-                    <CircleUserRound className="w-10 h-10 sm:w-12 sm:h-12 text-gray-600" />
+                  <div className="bg-base-200 p-2 sm:p-3 rounded-full">
+                    <CircleUserRound className="w-10 h-10 sm:w-12 sm:h-12 text-base-content" />
                   </div>
                   <div className="flex flex-col">
-                    <h3 className="text-base sm:text-lg font-semibold font-serif">
-                      Sarah Johnson
+                    <h3 className="text-base sm:text-lg font-semibold font-serif text-base-content">
+                      Firoz Fahim
                     </h3>
-                    <span className="text-xs sm:text-sm text-gray-600 font-poppins">
-                      Senior Web Developer
+                    <span className="text-xs sm:text-sm text-base-content/70 font-poppins">
+                      Founder@N3X Chain
                     </span>
-                    <span className="text-xs sm:text-sm text-gray-600 font-poppins mb-2 sm:mb-4">
-                      Tech Innovations Ltd
+                    <a
+                      href="https://n3xchain.com"
+                      className="text-xs sm:text-sm text-base-content/70 font-poppins hover:text-red-700"
+                    >
+                      n3xchain.com
+                    </a>
+                    <a
+                      href="mailto:firozfahim@nx3chain.com"
+                      className="text-xs sm:text-sm text-base-content/70 font-poppins mb-2 sm:mb-4 hover:text-red-700"
+                    >
+                      📧Email: firozfahim@n3xchain.com
+                    </a>
+                    <p className="text-sm sm:text-base text-base-content font-poppins">
+                      &quot;Working with Fardeen was a pleasure. His technical
+                      expertise in web development and attention to detail
+                      resulted in a high-quality product. He shows great
+                      potential in the field of software development.&quot;
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div className="bg-base-100 rounded-xl p-4 sm:p-6 shadow-md hover:shadow-lg transition-shadow">
+                <div className="flex items-start gap-3 sm:gap-4">
+                  <div className="bg-base-200 p-2 sm:p-3 rounded-full">
+                    <CircleUserRound className="w-10 h-10 sm:w-12 sm:h-12 text-base-content" />
+                  </div>
+                  <div className="flex flex-col">
+                    <h3 className="text-base sm:text-lg font-semibold font-serif text-base-content">
+                      Syeda Tanjina
+                    </h3>
+                    <span className="text-xs sm:text-sm text-base-content/70 font-poppins">
+                      Teacher (Junior Section)
                     </span>
-                    <p className="text-gray-700 font-moonDance text-base sm:text-xl">
-                      Working with Fardeen was a great experience. His expertise
-                      in React and modern web development practices
-                      significantly contributed to our project's success. He
-                      consistently demonstrated strong communication skills and
-                      a proactive approach to problem-solving.
+                    <a
+                      href="https://yaleinternationalschool.com/"
+                      className="text-xs sm:text-sm text-base-content/70 font-poppins hover:text-blue-700"
+                    >
+                      Yale International School, Dhaka, Bangladesh
+                    </a>
+                    <a
+                      href="mailto:syedatanjina10@gmail.com"
+                      className="text-xs sm:text-sm text-base-content/70 font-poppins mb-2 sm:mb-4 hover:text-red-700"
+                    >
+                      📧Email: syedatanjina10@gmail.com
+                    </a>
+                    <p className="text-sm sm:text-base text-base-content font-poppins">
+                      &quot;Fardeen&apos;s ability to explain complex technical
+                      concepts in simple terms is remarkable. His patience and
+                      clear communication skills make him an excellent
+                      collaborator and team player.&quot;
                     </p>
                   </div>
                 </div>
