@@ -16,7 +16,7 @@ const Sidebar = () => {
           <img
             src={image}
             alt="dp"
-            className="w-28 h-28 rounded-full object-cover border-4 border-white shadow-md"
+            className="w-32 h-36 rounded-badge sm:mt-5 object-cover border-4 border-white shadow-md"
           />
           <div className="text-center space-y-1">
             <h1 className="text-2xl font-bold font-poppins">
