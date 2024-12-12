@@ -12,7 +12,7 @@ const Navbar = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "./src/certificates/Fardeen CV.pdf";
+    link.href = "/cv1.pdf";
     link.download = "cv1.pdf";
     document.body.appendChild(link);
     link.click();
