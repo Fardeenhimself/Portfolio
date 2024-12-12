@@ -1,4 +1,9 @@
-import { Home as HomeIcon, Mail, Download, Settings as SettingsIcon } from "lucide-react";
+import {
+  Home as HomeIcon,
+  Mail,
+  Download,
+  Settings as SettingsIcon,
+} from "lucide-react";
 
 const Navbar = () => {
   const handleEmailClick = () => {
@@ -25,7 +30,7 @@ const Navbar = () => {
               className="text-base-content hover:text-primary font-poppins flex items-center gap-2"
             >
               <SettingsIcon size={20} />
-              <span>Settings</span>
+              <span>Theme</span>
             </a>
             <a
               href="/"
