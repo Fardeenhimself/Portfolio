@@ -65,7 +65,7 @@ const Navbar = () => {
             className="text-base-content hover:text-primary flex flex-col items-center"
           >
             <SettingsIcon size={24} />
-            <span className="text-xs mt-1 font-poppins">Settings</span>
+            <span className="text-xs mt-1 font-poppins">Theme</span>
           </a>
           <a
             href="/"

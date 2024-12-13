@@ -68,7 +68,7 @@ const Sidebar = () => {
               <Linkedin className="text-xl hover:text-blue-500" />
               <a
                 className="hover:text-blue-500"
-                href="https://www.linkedin.com/in/fardeen-been-zaman"
+                href="www.linkedin.com/in/fardeen-been-zaman-25024a338"
               >
                 fardeen-been-zaman
               </a>
@@ -199,6 +199,12 @@ const Sidebar = () => {
               <li>Cycling</li>
             </ul>
           </div>
+        </div>
+        <div className="flex flex-col items-center justify-start gap-5 p-5">
+          <h3 className="text-sm font-poppins sm:text-base">
+            <span className="hidden sm:inline">All Rights Reserved</span>{" "}
+            {new Date().getFullYear()} &copy; Fardeen Been Zaman
+          </h3>
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ const Home = () => {
             <h1 className="text-2xl font-bold font-poppins md:text-4xl">
               About Me
             </h1>
-            <p className="text-sm font-poppins text-gray-600 md:text-base text-justify">
+            <p className="text-sm font-poppins text-base-content md:text-base text-justify">
               Hi, I&apos;m Fardeen Been Zaman, a passionate Computer Science
               graduate and a versatile developer. <br />
               With a keen eye for design and a love for solving complex
@@ -51,6 +51,9 @@ const Home = () => {
                     Git Repo: github/shoe_store
                   </a>
                   <span className="font-poppins">Duration: 26 Days</span>
+                  <span className="text-sm font-poppins">
+                    Contributions: Mazharul Islam
+                  </span>
                 </li>
                 <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
                   <span className="text-lg font-semibold font-poppins">
@@ -69,6 +72,9 @@ const Home = () => {
                     Git Repo: github/car_rent
                   </a>
                   <span className="font-poppins">Duration: 12 Days</span>
+                  <span className="text-sm font-poppins">
+                    Contributions: Mazharul Islam
+                  </span>
                 </li>
               </ul>
               <ul>
@@ -89,6 +95,9 @@ const Home = () => {
                     Git Repo: github/chat_mern
                   </a>
                   <span className="font-poppins">Duration: 8 Days</span>
+                  <span className="text-sm font-poppins">
+                    Contributions: Salman Islam
+                  </span>
                 </li>
                 <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
                   <span className="text-lg font-semibold font-poppins">
@@ -108,6 +117,9 @@ const Home = () => {
                   </a>
                   <span className="font-poppins">
                     Duration: <span className="text-green-600">Ongoing...</span>{" "}
+                  </span>
+                  <span className="text-sm font-poppins">
+                    Contributions: Mazharul Islam & Salman Islam
                   </span>
                 </li>
               </ul>
