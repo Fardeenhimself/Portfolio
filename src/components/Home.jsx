@@ -48,7 +48,7 @@ const Home = () => {
                     href="https://github.com/Fardeenhimself/Quizzz_MERN"
                     className="font-semibold hover:text-red-500 font-poppins"
                   >
-                    Git Repo: github/shoe_store
+                    Git Repo: github/Quizzz_MERN
                   </a>
                   <span className="font-poppins">Duration: 26 Days</span>
                   <span className="text-sm font-poppins">
