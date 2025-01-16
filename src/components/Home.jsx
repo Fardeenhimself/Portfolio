@@ -56,8 +56,17 @@ const Home = () => {
                   </span>
                 </li>
                 <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
-                  <a href="https://goribergari-khl.netlify.app/" className="text-lg font-semibold font-poppins hover:text-red-500">
-                    Goriber Gari.com (CLICK)
+                  <a
+                    href="https://goribergari-khl.netlify.app/"
+                    className="text-lg font-semibold font-poppins hover:text-red-500"
+                  >
+                    Goriber Gari.com
+                  </a>
+                  <a
+                    href="https://goribergari-khl.netlify.app/"
+                    className="font-semibold font-poppins hover:text-red-500"
+                  >
+                    Watch Live: goribergari-khl.netlify.app
                   </a>
                   <span className="font-semibold font-poppins">
                     Type: Renting Appication
@@ -69,7 +78,7 @@ const Home = () => {
                     href="https://github.com/Fardeenhimself/Car_Renting_NextJS"
                     className="font-semibold hover:text-red-500  font-poppins"
                   >
-                    Git Repo: Available upon request. 
+                    Git Repo: github/Car_Renting_NextJS
                   </a>
                   <span className="font-poppins">Duration: 12 Days</span>
                   <span className="text-sm font-poppins">
