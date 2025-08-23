@@ -118,18 +118,18 @@ const Sidebar = () => {
           </h1>
           <div className="flex flex-wrap gap-3">
             <div className="flex flex-wrap gap-3">
-              <span className="rounded-xl bg-base-content p-3 text-white text-center font-poppins">
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins">
                 HTML
               </span>
-              <span className="rounded-xl bg-base-content p-3 text-white text-center font-poppins">
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins">
                 CSS
               </span>
-              <span className="rounded-xl bg-base-content p-3 text-white text-center font-poppins">
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins">
                 JavaScript
               </span>
             </div>
             <div className="flex flex-wrap gap-3">
-              <span className="rounded-xl bg-base-content p-3 text-white text-center font-poppins">
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins">
                 Flutter
               </span>
             </div>

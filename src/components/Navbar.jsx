@@ -12,8 +12,8 @@ const Navbar = () => {
 
   const handleDownloadCV = () => {
     const link = document.createElement("a");
-    link.href = "/cv1.pdf";
-    link.download = "cv1.pdf";
+    link.href = "/cv.pdf";
+    link.download = "cv.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

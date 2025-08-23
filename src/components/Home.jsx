@@ -150,13 +150,13 @@ const Home = () => {
                     Technology: Flutter + Php
                   </span>
                    <a
-                    href="https://github.com/Fardeenhimself/flutter_tasbeeh_app/releases/download/v1.0/tasbeeh_app.apk"
+                    href="https://github.com/Fardeenhimself/esho_obodan_rakhi/releases/download/1.0/esho_obodan_rakhi.apk"
                     className="font-semibold hover:text-red-500  font-poppins"
                   >
-                    Download the APP: Tasbeeh_App
+                    Download the APP: Esho_Obodan_Rakhi
                   </a>
                   <a
-                    href="https://github.com/Fardeenhimself/esho_obodan_rakhi"
+                    href="https://github.com/Fardeenhimself/esho_obodan_rakhi.git"
                     className="text-sm font-semibold hover:text-red-500  font-poppins"
                   >
                     Git Repo: github/fardeenhimself/esho_obodan_rakhi
