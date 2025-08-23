@@ -23,7 +23,7 @@ const Sidebar = () => {
               Fardeen Been Zaman
             </h1>
             <h3 className="text-xl font-poppins">
-              Web Developer | Computer Science Graduate | IT Expert
+             Android Developer | IT Expert | Remote Ready
             </h3>
           </div>
         </div>
@@ -39,7 +39,7 @@ const Sidebar = () => {
                 className="hover:text-red-500"
                 href="mailto:fardeen.zaman@outlook.com"
               >
-                fardeen.zaman@outlook.com
+                fardeen.cse20@gmail.com
               </a>
             </li>
             <li className="flex items-center gap-2">
@@ -55,15 +55,6 @@ const Sidebar = () => {
             Social Links
           </h1>
           <ul className="space-y-3 font-poppins">
-            <li className="flex items-center gap-2">
-              <Facebook className="text-xl hover:text-blue-500" />
-              <a
-                className="hover:text-blue-500"
-                href="https://www.facebook.com/fardeenhimself"
-              >
-                fardeenhimself
-              </a>
-            </li>
             <li className="flex items-center gap-2">
               <Linkedin className="text-xl hover:text-blue-500" />
               <a
@@ -89,7 +80,7 @@ const Sidebar = () => {
             Educational Qualification
           </h1>
           <ul>
-            <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
+            <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/6 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
               <span className="font-light md:text-lg font-poppins">
                 Bachelors Degree
               </span>
@@ -119,21 +110,6 @@ const Sidebar = () => {
               </span>
               <span className="text-sm font-poppins">2017-2019</span>
             </li>
-            <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
-              <span className="font-light md:text-lg font-poppins">
-                Secondary Education
-              </span>
-              <span className="font-semibold md:text-lg font-poppins">
-                Science Discipline
-              </span>
-              <span className="font-semibold font-poppins">
-                CGPA: 4.95/5.00
-              </span>
-              <span className="font-light font-poppins">
-                Islamabad Collegiate School and College, Khulna
-              </span>
-              <span className="text-sm font-poppins">2014-2016</span>
-            </li>
           </ul>
         </div>
         <div className="flex flex-col items-start justify-start gap-5 border-b p-5">
@@ -154,13 +130,7 @@ const Sidebar = () => {
             </div>
             <div className="flex flex-wrap gap-3">
               <span className="rounded-xl bg-base-content p-3 text-white text-center font-poppins">
-                React JS
-              </span>
-              <span className="rounded-xl bg-base-content p-3 text-white text-center font-poppins">
-                Next JS
-              </span>
-              <span className="rounded-xl bg-base-content p-3 text-white text-center font-poppins">
-                Tailwind CSS
+                Flutter
               </span>
             </div>
           </div>

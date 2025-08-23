@@ -16,10 +16,8 @@ const Home = () => {
               graduate and a versatile developer. <br />
               With a keen eye for design and a love for solving complex
               problems, I aim to create seamless user experiences and intuitive
-              web applications that make a real impact. <br />
-              I&apos;ve worked on a variety of projects from dynamic web apps
-              built with React to responsive and visually appealing interfaces
-              using Tailwind CSS. <br />
+              android and web applications that make a real impact. <br />
+              I&apos;ve worked on a variety of projects from mobile apps to dynamic web apps that are visually appealing using React.js & Tailwind CSS. <br />
               My journey in tech started with a fascination for how things work
               behind the scenes, which led me to ensuring smooth workflows and
               excellent customer service.
@@ -37,50 +35,54 @@ const Home = () => {
             <div className="flex flex-col lg:flex-row lg:gap-20">
               <ul>
                 <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
-                  <span className="text-xl font-bold font-poppins">Quizzz</span>
+                  <span className="text-xl font-bold font-poppins">Treatos BD</span>
                   <span className="font-semibold font-poppins">
-                    Type: Quiz App
+                    Type: Android E-Commerce Application
                   </span>
                   <span className="font-semibold font-poppins">
-                    Technology: MERN Stack
+                    Technology: Flutter + PHP
                   </span>
-                  <a
-                    href="https://github.com/Fardeenhimself/Quizzz_MERN"
-                    className="font-semibold hover:text-red-500 font-poppins"
+                   <a
+                    href="https://github.com/Fardeenhimself/flutter_treatos/releases/download/1.0/treatosBD.apk"
+                    className=" font-semibold hover:text-red-500 font-poppins"
                   >
-                    Git Repo: github/Quizzz_MERN
+                    Download the APP: Treatos_BD
                   </a>
-                  <span className="font-poppins">Duration: 26 Days</span>
+                  <a
+                    href="https://github.com/Fardeenhimself/flutter_treatos"
+                    className="text-sm font-semibold hover:text-red-500  font-poppins"
+                  >
+                    Git Repo: github.com/Fardeenhimself/flutter_treatos
+                  </a>
+                 
+                  <span className="text-sm font-poppins">Duration: 4 D A Y S</span>
                   <span className="text-sm font-poppins">
                     Contributions: Mazharul Islam
                   </span>
                 </li>
                 <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
-                  <a
-                    href="https://goribergari-khl.netlify.app/"
-                    className="text-lg font-semibold font-poppins hover:text-red-500"
-                  >
-                    Goriber Gari.com
-                  </a>
-                  <a
+                  <span className="text-lg font-bold font-poppins">
+                        Goriber Gari.com
+                    </span>
+                  <span className="font-semibold font-poppins">
+                    Type: Web Car Renting Appication
+                  </span>
+                  <span className="font-semibold font-poppins">
+                    Technology: Next JS
+                  </span>
+                   <a
                     href="https://goribergari-khl.netlify.app/"
                     className="font-semibold font-poppins hover:text-red-500"
                   >
                     Watch Live: goribergari-khl.netlify.app
                   </a>
-                  <span className="font-semibold font-poppins">
-                    Type: Renting Appication
-                  </span>
-                  <span className="font-semibold font-poppins">
-                    Technology: Next JS
-                  </span>
                   <a
                     href="https://github.com/Fardeenhimself/Car_Renting_NextJS"
-                    className="font-semibold hover:text-red-500  font-poppins"
+                    className="text-sm font-semibold hover:text-red-500  font-poppins"
                   >
                     Git Repo: github/Car_Renting_NextJS
                   </a>
-                  <span className="font-poppins">Duration: 12 Days</span>
+                  <span className="text-sm font-poppins">Duration: 12 Days</span>
                   <span className="text-sm font-poppins">
                     Contributions: Mazharul Islam
                   </span>
@@ -88,48 +90,52 @@ const Home = () => {
               </ul>
               <ul>
                 <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
-                  <span className="text-lg font-semibold font-poppins">
+                  <span className="text-lg font-bold font-poppins">
                     Dm Me
                   </span>
                   <span className="font-semibold font-poppins">
-                    Type: Chatting Application
+                    Type: Android Chatting Application
                   </span>
                   <span className="font-semibold font-poppins">
-                    Technology: MERN Stack, Socket IO
+                    Technology: Flutter + Firebase
                   </span>
-                  <a
-                    href="https://github.com/Fardeenhimself/ChatApp_MERN"
+                   <a
+                    href="https://github.com/Fardeenhimself/chat_app/releases/download/v1.0/dm_me.v1.3.apk"
                     className="font-semibold hover:text-red-500  font-poppins"
                   >
-                    Git Repo: github/chat_mern
+                    Download the APP: DM_Me
                   </a>
-                  <span className="font-poppins">Duration: 8 Days</span>
-                  <span className="text-sm font-poppins">
-                    Contributions: Salman Islam
-                  </span>
+                  <a
+                    href="https://github.com/Fardeenhimself/chat_app"
+                    className="text-sm font-semibold hover:text-red-500  font-poppins"
+                  >
+                    Git Repo: github/fardeenhimself/chat_app
+                  </a>
+                  <span className="text-sm font-poppins">Duration: 3 Days</span>
                 </li>
                 <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
-                  <span className="text-lg font-semibold font-poppins">
-                    FM Cake Fair
+                  <span className="text-lg font-bold font-poppins">
+                    Tasbeeh_App
                   </span>
                   <span className="font-semibold font-poppins">
-                    Type: E-Commerce
+                    Type: Android SIslamic Application
                   </span>
                   <span className="font-semibold font-poppins">
-                    Technology: MERN Stack
+                    Technology: Flutter 
                   </span>
-                  <a
-                    href="https://github.com/Fardeenhimself/eshop"
+                   <a
+                    href="https://github.com/Fardeenhimself/flutter_tasbeeh_app/releases/download/v1.0/tasbeeh_app.apk"
                     className="font-semibold hover:text-red-500  font-poppins"
                   >
-                    Git Repo: github/eshop
+                    Download the APP: Tasbeeh_App
                   </a>
-                  <span className="font-poppins">
-                    Duration: <span className="text-green-600">Ongoing...</span>{" "}
-                  </span>
-                  <span className="text-sm font-poppins">
-                    Contributions: Mazharul Islam & Salman Islam
-                  </span>
+                  <a
+                    href="https://github.com/Fardeenhimself/flutter_tasbeeh_app"
+                    className="text-sm font-semibold hover:text-red-500  font-poppins"
+                  >
+                    Git Repo: github/fardeenhimself/chat_app
+                  </a>
+                  <span className="text-sm font-poppins">Duration: 3 Days</span>
                 </li>
               </ul>
             </div>
@@ -150,7 +156,7 @@ const Home = () => {
                   <span className="font-medium font-poppins">
                     Technology: JavaScript
                   </span>
-                  <span className="font-poppins">From: Simplilearn</span>
+                  <a href="https://www.simplilearn.com/" className="font-poppins hover:text-red-500">From: Simplilearn</a>
                   <a
                     href="/js.png"
                     target="_blank"
@@ -171,9 +177,9 @@ const Home = () => {
                   <span className="font-medium font-poppins">
                     Technology: React JS
                   </span>
-                  <span className=" font-medium font-poppins">
+                  <a href="https://appstick.com.bd/" className=" font-medium font-poppins hover:text-red-500">
                     From: Appstick
-                  </span>
+                  </a>
                   <a
                     href="/app.png"
                     target="_blank"
@@ -185,6 +191,33 @@ const Home = () => {
                   </a>
                 </li>
               </ul>
+               <div  className="flex flex-col lg:flex-row lg:gap-20" >
+                  <ul>
+<li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
+                  <span className="text-2xl font-semibold font-moonDance">
+                    Certificate of Completion
+                  </span>
+                  <span className="font-medium  font-poppins">
+                    Course: IT Support for Office Management
+                  </span>
+                  <span className="font-medium font-poppins">
+                    Technology: IT 
+                  </span>
+                  <a href="https://edge.gov.bd/" className=" font-medium font-poppins hover:text-red-500">
+                    From: EDGE, Khulna University
+                  </a>
+                  <a
+                    href="/edge.png"
+                    target="_blank"
+                    className="font-light font-poppins"
+                  >
+                    <button className="bg-slate-600 hover:bg-slate-400 text-white py-2 px-4 rounded-full">
+                      Certificate
+                    </button>
+                  </a>
+                </li>
+                  </ul>
+                </div>
             </div>
           </div>
           <div className="space-y-10">
