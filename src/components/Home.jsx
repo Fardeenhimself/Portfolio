@@ -35,7 +35,7 @@ const Home = () => {
             <div className="flex flex-col lg:flex-row lg:gap-20">
               <ul>
                 <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
-                  <span className="text-xl font-bold font-poppins">Treatos BD</span>
+                  <span className="text-xl font-bold font-poppins">📱 Treatos BD</span>
                   <span className="font-semibold font-poppins">
                     Type: Android E-Commerce Application
                   </span>
@@ -62,7 +62,7 @@ const Home = () => {
                 </li>
                 <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
                   <span className="text-lg font-bold font-poppins">
-                        Goriber Gari.com
+                        💻 Goriber Gari.com
                     </span>
                   <span className="font-semibold font-poppins">
                     Type: Web Car Renting Appication
@@ -91,7 +91,7 @@ const Home = () => {
               <ul>
                 <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
                   <span className="text-lg font-bold font-poppins">
-                    Dm Me
+                    📱 Dm Me
                   </span>
                   <span className="font-semibold font-poppins">
                     Type: Android Chatting Application
@@ -115,10 +115,10 @@ const Home = () => {
                 </li>
                 <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
                   <span className="text-lg font-bold font-poppins">
-                    Tasbeeh_App
+                   📱 Tasbeeh_App
                   </span>
                   <span className="font-semibold font-poppins">
-                    Type: Android SIslamic Application
+                    Type: Android Islamic Application
                   </span>
                   <span className="font-semibold font-poppins">
                     Technology: Flutter 
@@ -136,6 +136,35 @@ const Home = () => {
                     Git Repo: github/fardeenhimself/chat_app
                   </a>
                   <span className="text-sm font-poppins">Duration: 3 Days</span>
+                </li>
+              </ul>
+              <ul>
+                <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
+                  <span className="text-lg font-bold font-poppins">
+                    📱 Esho_Obodan_Rakhi
+                  </span>
+                  <span className="font-semibold font-poppins">
+                    Type: Android Islamic Application
+                  </span>
+                  <span className="font-semibold font-poppins">
+                    Technology: Flutter + Php
+                  </span>
+                   <a
+                    href="https://github.com/Fardeenhimself/flutter_tasbeeh_app/releases/download/v1.0/tasbeeh_app.apk"
+                    className="font-semibold hover:text-red-500  font-poppins"
+                  >
+                    Download the APP: Tasbeeh_App
+                  </a>
+                  <a
+                    href="https://github.com/Fardeenhimself/esho_obodan_rakhi"
+                    className="text-sm font-semibold hover:text-red-500  font-poppins"
+                  >
+                    Git Repo: github/fardeenhimself/esho_obodan_rakhi
+                  </a>
+                  <span className="text-sm font-poppins">Duration: 5 Days</span>
+                  <span className="text-sm font-poppins">
+                    Contributions: Mazharul Islam
+                  </span>
                 </li>
               </ul>
             </div>
