@@ -23,7 +23,7 @@ const Sidebar = () => {
               Fardeen Been Zaman
             </h1>
             <h3 className="text-xl font-poppins">
-             Android Developer | IT Expert | Remote Ready
+             Flutter Developer | IT Expert | Remote Ready
             </h3>
           </div>
         </div>
@@ -59,7 +59,9 @@ const Sidebar = () => {
               <Linkedin className="text-xl hover:text-blue-500" />
               <a
                 className="hover:text-blue-500"
-                href="www.linkedin.com/in/fardeen-been-zaman-25024a338"
+                href="www.linkedin.com/in/
+fardeen-been-zaman-25024a338
+"
               >
                 fardeen-been-zaman
               </a>
@@ -129,6 +131,9 @@ const Sidebar = () => {
               </span>
             </div>
             <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins">
+                Dart
+              </span>
               <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins">
                 Flutter
               </span>

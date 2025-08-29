@@ -17,7 +17,7 @@ const Home = () => {
               With a keen eye for design and a love for solving complex
               problems, I aim to create seamless user experiences and intuitive
               android and web applications that make a real impact. <br />
-              I&apos;ve worked on a variety of projects from mobile apps to dynamic web apps that are visually appealing using React.js & Tailwind CSS. <br />
+              I&apos;ve worked on a variety of projects from mobile apps to dynamic web apps that are visually appealing using Flutter, React.js & Tailwind CSS. <br />
               My journey in tech started with a fascination for how things work
               behind the scenes, which led me to ensuring smooth workflows and
               excellent customer service.
@@ -133,7 +133,7 @@ const Home = () => {
                     href="https://github.com/Fardeenhimself/flutter_tasbeeh_app"
                     className="text-sm font-semibold hover:text-red-500  font-poppins"
                   >
-                    Git Repo: github/fardeenhimself/chat_app
+                    Git Repo: github/fardeenhimself/tasbeeh_app
                   </a>
                   <span className="text-sm font-poppins">Duration: 3 Days</span>
                 </li>
@@ -147,10 +147,10 @@ const Home = () => {
                     Type: Android Islamic Application
                   </span>
                   <span className="font-semibold font-poppins">
-                    Technology: Flutter + Php
+                    Technology: Flutter + PHP
                   </span>
                    <a
-                    href="https://github.com/Fardeenhimself/esho_obodan_rakhi/releases/download/1.0/esho_obodan_rakhi.apk"
+                    href="https://github.com/Fardeenhimself/esho_obodan_rakhi/releases/download/v1.1/esho_obodan_rakhi.apk"
                     className="font-semibold hover:text-red-500  font-poppins"
                   >
                     Download the APP: Esho_Obodan_Rakhi
@@ -161,7 +161,7 @@ const Home = () => {
                   >
                     Git Repo: github/fardeenhimself/esho_obodan_rakhi
                   </a>
-                  <span className="text-sm font-poppins">Duration: 5 Days</span>
+                  <span className="text-sm font-poppins">Duration: 9 Days</span>
                   <span className="text-sm font-poppins">
                     Contributions: Mazharul Islam
                   </span>
