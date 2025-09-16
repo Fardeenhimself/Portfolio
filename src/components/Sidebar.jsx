@@ -1,6 +1,5 @@
 import image from "/image.jpg";
 import {
-  Facebook,
   Github,
   Linkedin,
   Mail,
@@ -120,21 +119,21 @@ fardeen-been-zaman-25024a338
           </h1>
           <div className="flex flex-wrap gap-3">
             <div className="flex flex-wrap gap-3">
-              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins">
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
                 HTML
               </span>
-              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins">
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
                 CSS
               </span>
-              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins">
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
                 JavaScript
               </span>
             </div>
             <div className="flex flex-wrap gap-3">
-              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins">
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
                 Dart
               </span>
-              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins">
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
                 Flutter
               </span>
             </div>
@@ -147,6 +146,7 @@ fardeen-been-zaman-25024a338
           <div className="flex flex-wrap gap-16 p-3">
             <ul className="flex list-disc flex-col gap-3 font-poppins">
               <li>Microsoft Office</li>
+              <li>Google Workspace</li>
               <li>Problem Solving</li>
               <li>Excellent Communication</li>
             </ul>

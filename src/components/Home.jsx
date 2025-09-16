@@ -332,22 +332,21 @@ const Home = () => {
                   </div>
                   <div className="flex flex-col">
                     <h3 className="text-base sm:text-lg font-semibold font-serif text-base-content">
-                      Syeda Tanjina
+                      Mazharul Islam
                     </h3>
                     <span className="text-xs sm:text-sm text-base-content/70 font-poppins">
-                      Teacher (Junior Section)
+                      Full Stack Developer
                     </span>
-                    <a
-                      href="https://yaleinternationalschool.com/"
+                    <span
                       className="text-xs sm:text-sm text-base-content/70 font-poppins hover:text-blue-700"
                     >
-                      Yale International School, Dhaka, Bangladesh
-                    </a>
+                      TechLab Software, Khulna, Bangladesh
+                    </span>
                     <a
                       href="mailto:syedatanjina10@gmail.com"
                       className="text-xs sm:text-sm text-base-content/70 font-poppins mb-2 sm:mb-4 hover:text-red-700"
                     >
-                      📧Email: syedatanjina10@gmail.com
+                      📧Email: imazharul1101@gmail.com
                     </a>
                     <p className="text-sm sm:text-base text-base-content font-poppins">
                       &quot;Fardeen&apos;s ability to explain complex technical
