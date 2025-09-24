@@ -12,20 +12,7 @@ const Home = () => {
               About Me
             </h1>
             <p className="text-sm font-poppins text-base-content md:text-base text-justify">
-              Hi, I&apos;m Fardeen Been Zaman, a passionate Computer Science
-              graduate and a versatile developer. <br />
-              With a keen eye for design and a love for solving complex
-              problems, I aim to create seamless user experiences and intuitive
-              android and web applications that make a real impact. <br />
-              I&apos;ve worked on a variety of projects from mobile apps to dynamic web apps that are visually appealing using Flutter, React.js & Tailwind CSS. <br />
-              My journey in tech started with a fascination for how things work
-              behind the scenes, which led me to ensuring smooth workflows and
-              excellent customer service.
-              <br /> I&apos;m always excited to learn new technologies, optimize
-              workflows, and contribute to meaningful projects that push
-              boundaries. <br />
-              Feel free to connect with me. Let&apos;s build something great
-              together 😊!
+              Flutter developer specializing in e-commerce, donation, and location-based apps. I enjoy building seamless, user-friendly mobile experiences with clean architecture and efficient state management.
             </p>
           </div>
           <div className="space-y-10">
@@ -57,34 +44,34 @@ const Home = () => {
                  
                   <span className="text-sm font-poppins">Duration: 4 D A Y S</span>
                   <span className="text-sm font-poppins">
-                    Contributions: Mazharul Islam
+                    Contributions: Mazharul Islam (Server)
                   </span>
                 </li>
                 <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
                   <span className="text-lg font-bold font-poppins">
-                        💻 Goriber Gari.com
-                    </span>
-                  <span className="font-semibold font-poppins">
-                    Type: Web Car Renting Appication
+                    📱 Esho_Obodan_Rakhi
                   </span>
                   <span className="font-semibold font-poppins">
-                    Technology: Next JS
+                    Type: Android Islamic Application
+                  </span>
+                  <span className="font-semibold font-poppins">
+                    Technology: Flutter + PHP
                   </span>
                    <a
-                    href="https://goribergari-khl.netlify.app/"
-                    className="font-semibold font-poppins hover:text-red-500"
+                    href="https://github.com/Fardeenhimself/esho_obodan_rakhi/releases/download/v1.1/esho_obodan_rakhi.apk"
+                    className="font-semibold hover:text-red-500  font-poppins"
                   >
-                    Watch Live: goribergari-khl.netlify.app
+                    Download the APP: Esho_Obodan_Rakhi
                   </a>
                   <a
-                    href="https://github.com/Fardeenhimself/Car_Renting_NextJS"
+                    href="https://github.com/Fardeenhimself/esho_obodan_rakhi.git"
                     className="text-sm font-semibold hover:text-red-500  font-poppins"
                   >
-                    Git Repo: github/Car_Renting_NextJS
+                    Git Repo: github/fardeenhimself/esho_obodan_rakhi
                   </a>
-                  <span className="text-sm font-poppins">Duration: 12 Days</span>
+                  <span className="text-sm font-poppins">Duration: 9 Days</span>
                   <span className="text-sm font-poppins">
-                    Contributions: Mazharul Islam
+                    Contributions: Mazharul Islam (Server)
                   </span>
                 </li>
               </ul>
@@ -136,35 +123,6 @@ const Home = () => {
                     Git Repo: github/fardeenhimself/tasbeeh_app
                   </a>
                   <span className="text-sm font-poppins">Duration: 3 Days</span>
-                </li>
-              </ul>
-              <ul>
-                <li className="relative flex flex-col gap-1 border-l p-6 before:absolute before:left-[-6px] before:top-1/5 before:h-3 before:w-3 before:-translate-y-1/5 before:rounded-full before:bg-black before:transform">
-                  <span className="text-lg font-bold font-poppins">
-                    📱 Esho_Obodan_Rakhi
-                  </span>
-                  <span className="font-semibold font-poppins">
-                    Type: Android Islamic Application
-                  </span>
-                  <span className="font-semibold font-poppins">
-                    Technology: Flutter + PHP
-                  </span>
-                   <a
-                    href="https://github.com/Fardeenhimself/esho_obodan_rakhi/releases/download/v1.1/esho_obodan_rakhi.apk"
-                    className="font-semibold hover:text-red-500  font-poppins"
-                  >
-                    Download the APP: Esho_Obodan_Rakhi
-                  </a>
-                  <a
-                    href="https://github.com/Fardeenhimself/esho_obodan_rakhi.git"
-                    className="text-sm font-semibold hover:text-red-500  font-poppins"
-                  >
-                    Git Repo: github/fardeenhimself/esho_obodan_rakhi
-                  </a>
-                  <span className="text-sm font-poppins">Duration: 9 Days</span>
-                  <span className="text-sm font-poppins">
-                    Contributions: Mazharul Islam
-                  </span>
                 </li>
               </ul>
             </div>

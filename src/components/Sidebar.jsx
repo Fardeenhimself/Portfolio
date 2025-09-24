@@ -76,6 +76,38 @@ fardeen-been-zaman-25024a338
             </li>
           </ul>
         </div>
+                <div className="flex flex-col items-start justify-start gap-5 border-b p-5">
+          <h1 className="text-base font-semibold font-poppins md:text-2xl">
+            Technology
+          </h1>
+          <div className="flex flex-wrap gap-3">
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
+                Dart
+              </span>
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
+                Flutter
+              </span>
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
+                Firebase
+              </span>
+            </div>
+            <div className="flex flex-wrap gap-3">
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
+                Supabase
+              </span>
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
+                GetX
+              </span>
+               <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
+                Riverpod
+              </span>
+              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
+                SQLite
+              </span>
+            </div>
+          </div>
+        </div>
         <div className="flex flex-col items-start justify-start gap-5 border-b p-5">
           <h1 className="text-base font-semibold font-poppins md:text-2xl">
             Educational Qualification
@@ -112,32 +144,6 @@ fardeen-been-zaman-25024a338
               <span className="text-sm font-poppins">2017-2019</span>
             </li>
           </ul>
-        </div>
-        <div className="flex flex-col items-start justify-start gap-5 border-b p-5">
-          <h1 className="text-base font-semibold font-poppins md:text-2xl">
-            Technology
-          </h1>
-          <div className="flex flex-wrap gap-3">
-            <div className="flex flex-wrap gap-3">
-              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
-                HTML
-              </span>
-              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
-                CSS
-              </span>
-              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
-                JavaScript
-              </span>
-            </div>
-            <div className="flex flex-wrap gap-3">
-              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
-                Dart
-              </span>
-              <span className="rounded-xl bg-black p-3 text-purple text-white font-poppins hover:shadow-lg transition-shadow">
-                Flutter
-              </span>
-            </div>
-          </div>
         </div>
         <div className="flex flex-col items-start justify-start gap-5 border-b p-5">
           <h1 className="text-base font-semibold font-poppins md:text-2xl">
