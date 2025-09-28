@@ -26,13 +26,6 @@ const Navbar = () => {
         <div className="container mx-auto px-4 py-3">
           <div className="flex justify-end items-center gap-6">
             <a
-              href="/settings"
-              className="text-base-content hover:text-primary font-poppins flex items-center gap-2"
-            >
-              <SettingsIcon size={20} />
-              <span>Theme</span>
-            </a>
-            <a
               href="/"
               className="text-base-content hover:text-primary font-poppins flex items-center gap-2"
             >
@@ -53,6 +46,13 @@ const Navbar = () => {
               <Download size={20} />
               <span>Download CV</span>
             </button>
+            <a
+              href="/settings"
+              className="text-base-content hover:text-primary font-poppins flex items-center gap-2"
+            >
+              <SettingsIcon size={20} />
+              <span>Theme</span>
+            </a>
           </div>
         </div>
       </nav>
@@ -60,13 +60,6 @@ const Navbar = () => {
       {/* Mobile Bottom Navigation */}
       <nav className="md:hidden fixed bottom-0 left-0 right-0 bg-base-100 shadow-lg z-50">
         <div className="flex justify-around items-center py-3">
-          <a
-            href="/settings"
-            className="text-base-content hover:text-primary flex flex-col items-center"
-          >
-            <SettingsIcon size={24} />
-            <span className="text-xs mt-1 font-poppins">Theme</span>
-          </a>
           <a
             href="/"
             className="text-base-content hover:text-primary flex flex-col items-center"
@@ -88,6 +81,13 @@ const Navbar = () => {
             <Download size={24} />
             <span className="text-xs mt-1 font-poppins">CV</span>
           </button>
+          <a
+            href="/settings"
+            className="text-base-content hover:text-primary flex flex-col items-center"
+          >
+            <SettingsIcon size={24} />
+            <span className="text-xs mt-1 font-poppins">Theme</span>
+          </a>
         </div>
       </nav>
     </>

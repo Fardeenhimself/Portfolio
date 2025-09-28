@@ -4,7 +4,6 @@ import {
   Linkedin,
   Mail,
   MapPinHouse,
-  Phone,
 } from "lucide-react";
 
 const Sidebar = () => {
@@ -39,12 +38,6 @@ const Sidebar = () => {
                 href="mailto:fardeen.zaman@outlook.com"
               >
                 fardeen.cse20@gmail.com
-              </a>
-            </li>
-            <li className="flex items-center gap-2">
-              <Phone className="text-xl" />
-              <a className="hover:text-red-500" href="tel:+8801711379218">
-                +88 017 1137 9218
               </a>
             </li>
           </ul>

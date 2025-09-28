@@ -30,7 +30,7 @@ const Home = () => {
                     Technology: Flutter + PHP
                   </span>
                    <a
-                    href="https://github.com/Fardeenhimself/flutter_treatos/releases/download/1.0/treatosBD.apk"
+                    href="https://github.com/Fardeenhimself/flutter_treatos/releases/download/1.2/TreatosBD.apk"
                     className=" font-semibold hover:text-red-500 font-poppins"
                   >
                     Download the APP: Treatos_BD
