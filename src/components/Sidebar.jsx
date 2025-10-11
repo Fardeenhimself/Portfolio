@@ -1,6 +1,7 @@
 import image from "/image.jpg";
 import {
   Github,
+  GlobeIcon,
   Linkedin,
   Mail,
   MapPinHouse,
@@ -14,7 +15,7 @@ const Sidebar = () => {
           <img
             src={image}
             alt="dp"
-            className="w-32 h-36 rounded-badge sm:mt-5 object-cover border-4 border-white shadow-md"
+            className="w-36 h-40 rounded-badge sm:mt-5 object-cover border-4 border-white shadow-md"
           />
           <div className="text-center space-y-1">
             <h1 className="text-2xl font-bold font-poppins">
@@ -29,7 +30,7 @@ const Sidebar = () => {
           <ul className="space-y-3 font-poppins">
             <li className="flex items-center gap-2">
               <MapPinHouse className="text-xl" />
-              <span>Khulna City, Khulna</span>
+              <span>Khulna, Bangladesh</span>
             </li>
             <li className="flex items-center gap-2">
               <Mail className="text-xl" />
@@ -51,11 +52,9 @@ const Sidebar = () => {
               <Linkedin className="text-xl hover:text-blue-500" />
               <a
                 className="hover:text-blue-500"
-                href="www.linkedin.com/in/
-fardeen-been-zaman-25024a338
-"
+                href="https://www.linkedin.com/in/fardeenhimself"
               >
-                fardeen-been-zaman
+                linkedin.com/in/fardeenhimself
               </a>
             </li>
             <li className="flex items-center gap-2">
@@ -64,7 +63,16 @@ fardeen-been-zaman-25024a338
                 className="hover:text-pink-500"
                 href="https://github.com/fardeenhimself"
               >
-                fardeenhimself
+                github.com/fardeenhimself
+              </a>
+            </li>
+            <li className="flex items-center gap-2">
+              <GlobeIcon className="text-xl hover:text-green-500" />
+              <a
+                className="hover:text-green-500"
+                href="https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AH8HC4yi4up-LS5T3nh1HIlZajG9tIqI5t57AjqNxMha_L92CgxJ94D3SWOes9TeuFQztLy1bacWj8xJCuuHYw&user=C03ystoAAAAJ"
+              >
+                scholar.google.com/fardeen-been-zaman
               </a>
             </li>
           </ul>
