@@ -121,9 +121,6 @@ const Sidebar = () => {
               <span className="font-semibold md:text-lg font-poppins">
                 Computer Science and Engineering
               </span>
-              <span className="font-semibold font-poppins">
-                CGPA: 3.70/4.00
-              </span>
               <span className="font-light font-poppins">
                 Northern University of Business and Technology, Khulna
               </span>
@@ -135,9 +132,6 @@ const Sidebar = () => {
               </span>
               <span className="font-semibold md:text-lg font-poppins">
                 Science Discipline
-              </span>
-              <span className="font-semibold font-poppins">
-                CGPA: 4.17/5.00
               </span>
               <span className="font-light font-poppins">
                 Islamabad Collegiate School and College, Khulna
